@@ -8,3 +8,13 @@
     private Action<string> print = (message) => { Debug.WriteLine($"DBG:{message}"); };
 
 ```
+
+### 構造体
+```cs
+    private struct DbConnect {
+            public string host;
+            public string user;
+            public string password;
+            public string database;
+    }
+```
