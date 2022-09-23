@@ -1,4 +1,4 @@
-# cs-delegate-struct
+# cs-delegate-anonymous-struct
 
 ## namespace form_03
 
