@@ -28,6 +28,8 @@
         print($"{connect.host} : {connect.user}");
 ```
 
+### [匿名型](https://learn.microsoft.com/ja-jp/dotnet/csharp/fundamentals/types/anonymous-types)
+    
 ### 構造体
 ```cs
         DbConnect dbConnect = new DbConnect { host = "localhost", user = "root", password = "", database = "lightbox" };
