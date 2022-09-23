@@ -8,6 +8,8 @@
     private Action<string> print = (message) => { Debug.WriteLine($"DBG:{message}"); };
 
 ```
+### [Func<TResult> Delegate](https://learn.microsoft.com/ja-jp/dotnet/api/system.func-1?view=net-6.0)
+### [Action Delegate](https://learn.microsoft.com/ja-jp/dotnet/api/system.action?view=net-6.0)
 
 ### 構造体
 ```cs
