@@ -1,4 +1,4 @@
-namespace cs_delegate_anonymous_struct;
+namespace cs_form_delegate_anonymous_struct;
 
 partial class Form1
 {
