@@ -34,12 +34,16 @@ public partial class Form1 : Form
         // 構造体
         DbConnect dbConnect = new DbConnect { host = "localhost", user = "root", password = "", database = "lightbox" };
         print(dbConnect.ToString());
-        print($"{connect.host} : {connect.user}");
+        print($"{dbConnect.host} : {dbConnect.user}");
 
         DbConnect dbConnect2;
-        dbConnect2.host = "localhost";
-        dbConnect2.user = "root";
-        print($"{connect.host} : {connect.user}");
+        dbConnect2.host = "localhost2";
+        dbConnect2.user = "root2";
+        dbConnect2.password = "";
+        dbConnect2.database = "lightbox2";
+        print($"{dbConnect2.host} : {dbConnect2.user}");
+        print(dbConnect2.ToString());
+
     }
 
 }
