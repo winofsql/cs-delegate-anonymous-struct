@@ -1,5 +1,5 @@
 using System.Diagnostics;
-namespace form_03;
+namespace cs_delegate_anonymous_struct;
 
 public partial class Form1 : Form
 {
